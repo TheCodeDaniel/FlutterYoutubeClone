@@ -1,6 +1,6 @@
 # youtube_clone
 
-A new Flutter project.
+This is very minimal youtube clone done with flutter, this is strictly a UI and not alot of functionalitites of the original app are present but you get too see a similar design to that of the regular famous youtube home screen.
 
 ## Getting Started
 
