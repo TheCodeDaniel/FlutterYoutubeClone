@@ -338,24 +338,9 @@ class _HomePageState extends State<HomePage> {
               color: Colors.blue,
               size: 40,
             ),
-
-            // SizedBox(
-            //   width: 120,
-            //   height: 120,
-            //   child: Lottie.network(
-            //       "https://assets8.lottiefiles.com/packages/lf20_ht6o1bdu.json"),
-            // )
-            // This is the ending of the super main Column
           ],
         ),
       ),
     );
   }
 }
-
-// link pages
-// Navigator.of(context).push(
-//                     MaterialPageRoute(builder: (BuildContext context) {
-//                       return const SettingsPage();
-//                     }),
-//                   );
