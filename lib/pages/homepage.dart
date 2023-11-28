@@ -2,6 +2,7 @@ import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 // import 'package:lottie/lottie.dart';
+import 'package:badges/badges.dart' as badge;
 import 'package:youtube_clone/pages/search.dart';
 import 'package:youtube_clone/pages/shorts.dart';
 
@@ -50,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                   size: 35,
                 ),
               ),
-              Badge(
+              badge.Badge(
                 padding: const EdgeInsets.all(4),
                 animationType: BadgeAnimationType.slide,
                 badgeContent: const Text(
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                   size: 25,
                 ),
                 const SizedBox(width: 25),
-                Badge(
+                badge.Badge(
                   padding: const EdgeInsets.all(3),
                   badgeContent: const Text(
                     "9+",
